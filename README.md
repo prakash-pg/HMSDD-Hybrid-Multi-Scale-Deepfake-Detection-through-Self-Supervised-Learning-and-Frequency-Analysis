@@ -5,13 +5,6 @@ Official PyTorch implementation of **"HMSDD: Hybrid Multi-Scale Deepfake Detecti
 **Authors**: Prakash P, Jaffino G  
 **Institution**: Vellore Institute of Technology, India
 
-## Results
-
-| Dataset | AUC | Accuracy | Precision | Recall |
-|---------|-----|----------|-----------|--------|
-| FF++(C23) | 99.4% | 96.1% | 99.1% | 93.0% |
-| FF++(RAW) | 99.9% | 99.6% | 99.9% | 99.2% |
-| FF++(C40) | 98.0% | 91.3% | 96.4% | 85.9% |
 
 ## Key Features
 
