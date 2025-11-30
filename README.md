@@ -36,6 +36,22 @@ python train_ffraw_val_c23.py \
     --epochs 30
 ```
 
+## Evaluation
+
+### Cross-Dataset Evaluation
+```bash
+python cross_dataset_evaluation.py \
+    --model_path ./checkpoints/best_model.pth \
+    --test_dataset celebdf
+```
+
+### Cross-Compression Evaluation
+```bash
+python evaluate_cross_compression.py \
+    --model_path ./checkpoints/best_model.pth \
+    --compression_level c23
+```
+
 ## Citation
 
 ```bibtex
