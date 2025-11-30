@@ -45,22 +45,9 @@ python evaluate_cross_compression.py \
     --compression_level c23
 ```
 
-## Citation
-
-```bibtex
-@inproceedings{prakash2025hmsdd,
-  title={HMSDD: Hybrid Multi-Scale Deepfake Detection through Self-Supervised Learning and Frequency Analysis},
-  author={Prakash, P and Jaffino, G},
-  booktitle={International Conference},
-  year={2025}
-}
-```
 
 ## Contact
 
 - Prakash P: prakash.p2023a@vitstudent.ac.in
 - Jaffino G: jaffino.g@vit.ac.in
 
-## License
-
-MIT License - see LICENSE file
