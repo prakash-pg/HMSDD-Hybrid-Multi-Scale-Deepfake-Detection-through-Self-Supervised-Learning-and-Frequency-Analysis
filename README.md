@@ -11,7 +11,7 @@ Official PyTorch implementation of **"HMSDD: Hybrid Multi-Scale Deepfake Detecti
 - MAE-based self-supervised learning
 - Cross-attention fusion (Equations 6-9)
 - PR-optimized focal loss with w_pos=2.5
-- 97.7% AUC cross-compression (RAW→C23)
+
 
 ## Installation
 
