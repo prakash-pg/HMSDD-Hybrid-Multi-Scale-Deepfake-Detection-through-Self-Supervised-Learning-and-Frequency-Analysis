@@ -1,0 +1,156 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets (too large for GitHub)
+ff++raw/
+ff++c23/
+ff++c40/
+celebdfv2/
+Celeb-DF/
+Celeb-DF-Balanced/
+Celeb-DF-Faces/
+DFD/
+FFHQ/
+ffhq_sdff/
+ffpp_raw_150/
+ffpp_c23_150/
+ffpp_c40_150/
+
+# Checkpoints and models (too large)
+checkpoints*/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+robust_pretrained_checkpoints/
+
+# Logs and temporary files
+*.log
+*.txt
+*.csv
+runs/
+wandb/
+outputs/
+results/
+gradcam_visualizations/
+publication_visualizations/
+
+# Face detection models (large)
+*.caffemodel
+*.prototxt
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Media files (too large)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Large images
+*.png (except small visualizations)
+*.jpg (except small visualizations)
+*.jpeg
+
+# PDF files (except conference paper)
+*.pdf
+!conference_updated.pdf
+!docs/HMSDD_Conference_Paper.pdf
+
+# Extracted frames (too many files)
+**/train/
+**/val/
+**/test/
+*/real/
+*/fake/
+
+# Specific large files to ignore
+Ref_*.pdf
+*.aux
+*.out
+
+# Cache
+.cache/
+*.cache
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary evaluation results
+cross_eval_results/
+image_ref/
+
+# Download logs
+download*.log
+extraction*.log
+*_training.log
+
+# Backup files
+*.bak
+*.backup
+*_old
+*_backup
