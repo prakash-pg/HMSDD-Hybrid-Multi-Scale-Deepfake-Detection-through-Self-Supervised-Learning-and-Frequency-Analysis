@@ -9,7 +9,7 @@ Official PyTorch implementation of **"HMSDD: Hybrid Multi-Scale Deepfake Detecti
 ## Key Features
 
 - MAE-based self-supervised learning
-- Cross-attention fusion (Equations 6-9)
+- Cross-attention fusion 
 - PR-optimized focal loss with w_pos=2.5
 
 
